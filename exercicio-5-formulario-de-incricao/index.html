@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Exercício 5</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" name="nome" id="nome" required> 
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <label for="whatsapp">WhatsApp:</label>
+        <br>
+        <input type="text" name="wpp" id="wpp" required>
+        <br><br>
+
+        <label>Área de atuação:</label>
+        <br>
+        <input type="radio" id="desenvolvimento" name="atuacao" value="desenvolvimento" required>
+        <label for="desenvolvimento">Desenvolvimento</label>
+        <input type="radio" id="qa" name="atuacao" value="qa" required>
+        <label for="qa">Quality Assurance (QA)</label>
+        <input type="radio" id="analise" name="atuacao" value="analise" required>
+        <label for="analise">Análise de Dados</label>
+        <input type="radio" id="infraestrutura" name="atuacao" value="infraestrutura" required>
+        <label for="infraestrutura">Infraestrutura</label>
+        <br><br>
+
+        <label for="obs">Observações:</label>
+        <br>
+        <textarea name="obs" id="obs"></textarea>
+        <br><br>
+        
+        <input type="checkbox" id="novidades" name="novidades" checked required />
+        <label for="novidades">Desejo receber novidades e ofertas por email.</label>
+        <br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
